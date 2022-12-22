@@ -312,7 +312,6 @@ button, input { font-family: 'Pretendard-Regular'; }
 .result-name {
     color: rgb(101,47,25);
     font-size: 35px;
-    line-height: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 5%;
@@ -385,6 +384,14 @@ button, input { font-family: 'Pretendard-Regular'; }
     font-size: 30px;
     line-height: 25px;
 }
+	 
+	 #result-title {
+    font-size: 18px;
+}
+	 
+.result-name {
+    font-size: 32px;
+}
      
 }   
 
@@ -428,6 +435,14 @@ button, input { font-family: 'Pretendard-Regular'; }
     padding-right: 20px;
     margin-top: 5px;
     margin-bottom: 10px;
+}
+	 
+#result-title {
+    font-size: 17px;
+}
+	 
+.result-name {
+    font-size: 28px;
 }
      
 }   
