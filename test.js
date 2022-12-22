@@ -85,7 +85,7 @@ function shareTwitter(e) {
     const sendone = "[당신에게 추천하는 2022 드라마는?]%0A";
     const sendtwo = "%0A%0A드라마 취향 테스트 결과를 공유해보세요";
     var sendText = document.getElementsByClassName("result-name")[e]; // 전달할 텍스트
-    var sendUrl = "devpad.tistory.com/"; // 전달할 URL
+    var sendUrl = "2022drama.ml/"; // 전달할 URL
     
     window.open("https://twitter.com/intent/tweet?text=" + sendone + sendText.innerText + sendtwo + "&url=" + sendUrl);
 }
