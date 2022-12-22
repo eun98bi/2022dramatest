@@ -274,7 +274,7 @@ button, input { font-family: 'Pretendard-Regular'; }
     display:inline-block;
     color : white;
     background-color: rgb(101,47,25);
-    min-width: 300px;
+    width: 70%;
     padding-top: 16px;
     padding-bottom: 15px;
     padding-left: 30px;
@@ -283,7 +283,8 @@ button, input { font-family: 'Pretendard-Regular'; }
     cursor: pointer;
     font-size: 20px;
 	margin : 0px 10px;
-    margin-top: 20px;
+    margin-top: 3px;
+    margin-bottom: 20px;
 }
 
 #middle {
@@ -425,16 +426,6 @@ button, input { font-family: 'Pretendard-Regular'; }
     font-size: 23px;
     line-height: 25px;
     margin-bottom: 28px;
-}
-
-.answer-11, .answer-12, .answer-21, .answer-22, .answer-31, .answer-32, .answer-41, .answer-42, .answer-51, .answer-52 {
-    min-width: 240px;
-    padding-top: 15px;
-    padding-bottom: 14px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 5px;
-    margin-bottom: 10px;
 }
 	 
 #result-title {
